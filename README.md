@@ -7,7 +7,7 @@
 
 We’ve created a **2-minute pitch video** (as per the hackathon guidelines) that showcases our product through animated storytelling, a product demo in the foreground, and a structured explanation of our approach and real-world impact.
 
-🔗 [Watch on YouTube](https://your-youtube-link.com)
+🔗 [Watch on YouTube](https://youtu.be/OD-m-HTWOdM)
 
 > 🎙️ *Note: The video uses AI-generated voice (via ElevenLabs)* as part of our voice integration testing. We believe voice plays a key role in accessibility and immersion for early learners and wanted to reflect that in our pitch.
 
