@@ -5,78 +5,88 @@
 
 ## 🎥 Pitch Video
 
-We’ve created a **2-minute pitch video** (as per the hackathon guidelines) that showcases our product through animated storytelling, a product demo in the foreground, and a structured explanation of our approach and real-world impact.
+We’ve created a **2-minute pitch video** that showcases our product through animated storytelling, real interface demonstration, and a deep dive into the technical and emotional design of SproutJourney.
 
 🔗 [Watch on YouTube](https://youtu.be/OD-m-HTWOdM)
 
-> 🎙️ *Note: The video uses AI-generated voice (via ElevenLabs)* as part of our voice integration testing. We believe voice plays a key role in accessibility and immersion for early learners and wanted to reflect that in our pitch.
+> 🎙️ *Note: The voiceover uses AI-generated audio (via ElevenLabs)* as part of our product testing. We believe voice is key to immersion, accessibility, and retention for early learners, especially those with reading difficulties.
 
 ---
 
-## 📄 Pitch Document
+## 📄 Framework & Technical Document
 
-You can read our complete framework and technical document here:  
+You can explore our complete technical breakdown here:  
 📄 [SproutJourney_Framework.pdf](./Sproutjourney_KushalAgrawal_Jazzee2025_Document.pdf)
 
-> ✍️ *Note: This document has been structured with the assistance of AI tools for clarity and polish. However, all core ideas, technical specifications, architectural decisions, and storytelling elements were authored by our team.*
+> ✍️ *This document was assisted by AI formatting tools, but all architectural, educational, and narrative elements were developed entirely by our team.*
 
 ---
 
 ## 🛠️ Tech Stack & Architecture
 
-**Gen-AI Backbone:**
-- **Gemma 2.5B** — fine-tuned and run locally
-- Currently testing with **LLaMA 3.1 8B** and **Flan-T5**
-- **RAG (Retrieval-Augmented Generation)** pipeline for contextualized, curriculum-aligned responses
+### Gen-AI & Agent Intelligence
+- **Gemma 2.5B** (fine-tuned locally with LoRA)
+- Also experimenting with **LLaMA 3.1 8B** and **Flan-T5**
+- **Multi-agent LLM system** with subject-specialist agents (e.g., Eli the Elephant for Social Science)
+- **Custom RAG pipeline** with concept-specific retrieval nodes per agent
+- **Language Graphs** to structure grade-wise content with Bloom’s taxonomy, cognitive depth, and cultural context
+- Built-in **guardrails** for hallucination prevention and child-safe response control
 
-**Voice & Interaction:**
-- **LangGraph** for orchestrating multi-agent flows
-- **ElevenLabs + Azure Voice(in testing)** for immersive generative voice integration
-- AI character voices mapped to domain-specialist agents (e.g., *Eli the Elephant* for Social Science)
+### Orchestration & Voice Interaction
+- **LangChain + LangGraph** for multi-agent logic and decision flow
+- **ChromaDB** (testing) with plans to shift to **scalable vector DB**
+- **TTS & Voice AI** using **ElevenLabs** and **Azure AI Voice** (in progress)
+- **Speech-based narration + gamified character interaction** with custom voice embedding for each domain agent
 
-**Front-End & Deployment:**
-- Built using **Unity Engine** for interactive storytelling and learning modules
-- Multimodal UI combining voice, visual storytelling, and interactive quizzes
-- Hosting on Hyperstack for GPU based workloads and simple web service using Python
+### Front-End & Deployment
+- Built in **Unity Engine** for immersive storytelling and interaction
+- Gamified quizzes, moral dilemmas, and learning simulations
+- Hosted via **Hyperstack GPU platform** + Python Flask backend
+
+### Experimental Extensions
+- Integration of **Stable Diffusion** and **video generation models** for dynamic visual feedback
+- Ongoing adaptation for multilingual support and edge-deployment in low-connectivity schools
 
 ---
 
 ## 🎯 Core Features
 
-- **Multi-agent Gen-AI system** trained on NCERT curriculum, Bhagavad Gita, and value education
-- **Emotional & cultural storytelling** to connect with young learners
-- **4-stage learning loop**: StoryTime → LearningTime → ThinkingTime → FunTime
-- **Adaptive profiling engine** to track strengths, weaknesses, and preferred learning modes
-- **Teacher integration dashboard** for real-time insights and custom interventions
-- **Modules on practical life skills** like financial literacy, empathy, and real-world decision-making
+- **Multi-agent Gen-AI system** with distinct subject-personas and personalities
+- **Curriculum-trained (NCERT)** + **cultural grounding** (Bhagavad Gita, Indian epics)
+- **Dynamic Learning Modes:**
+  - StoryTime → LearningTime → ThinkingTime → FunTime
+- **Cognitive Fingerprinting Engine** to identify strengths, weaknesses & learning styles
+- **Practical curriculum modules:** Financial literacy, civic values, empathy, and ethics
+- **Inclusive Design:** For neurodiverse children, early readers, and low-literacy students
+- **Teacher Dashboard:** Real-time insights, adaptive suggestions, and early alerts
 
 ---
 
 ## 🗂️ Repository Status
 
-This repository currently contains:
+This repository includes:
 - Pitch video
-- Technical framework document
-- Voice declarations and explanation
+- Framework document
+- Voice testing declarations
 
 ⚠️ **Codebase is under active development**  
-Due to sensitive architecture and in-progress refinement, the working code is currently private and shared with team members only.
+Due to its modular nature and sensitive components (e.g., moderation filters, agent weights), full code access is currently private.
 
-📬 *If you're a reviewer and would like access to the code, please reach out to us directly.*
+📬 *For access or evaluation, feel free to reach out directly.*
 
 ---
 
 ## ✅ Declaration
 
-- This submission is an **original concept and implementation** by Team Sproutjourney.
-- **AI voice** in the pitch is part of our ongoing product integration—not a placeholder or aesthetic choice.
-- We used AI tools like ChatGPT to help format our documents and structure the pitch—but all core decisions, concepts, architecture, and storytelling reflect our direct work.
-- The prototype and technology stack are real and functional, with components already being tested.
+- This submission is an **original product** by Team SproutJourney.
+- All AI voice, visuals, and architecture are part of active system integration—not placeholders.
+- Document structuring was AI-assisted, but all IP, logic, and creativity are entirely our own.
+- Product demos are fully working prototypes and being tested with users.
 
 ---
 
 ## 🌱 Summary
 
-SproutJourney is a human-first, AI-powered learning companion for India’s next generation. By combining culturally-rooted storytelling, adaptive Gen-AI tutoring, and emotionally aware design, we aim to make learning **joyful**, **personal**, and **impactful**—not just today, but across a child’s full educational journey.
+SproutJourney is a multi-agent, culturally grounded, AI-powered education platform that adapts to how *each* child thinks, feels, and learns. With safe, inclusive, and emotionally intelligent systems, we’re building not just learners—but lifelong thinkers, ethical decision-makers, and future-ready citizens.
 
-Together, let's raise not just students—but thinkers, dreamers, and leaders.
+Let’s reshape education—one child, one story, one conversation at a time.
