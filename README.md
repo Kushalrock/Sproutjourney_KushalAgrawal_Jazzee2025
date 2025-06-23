@@ -7,7 +7,7 @@
 
 We’ve created a **2-minute pitch video** that showcases our product through animated storytelling, real interface demonstration, and a deep dive into the technical and emotional design of SproutJourney.
 
-🔗 [Watch on YouTube](https://youtu.be/OD-m-HTWOdM)
+🔗 [Watch on YouTube](https://youtu.be/cAcVhKH7nig)
 
 > 🎙️ *Note: The voiceover uses AI-generated audio (via ElevenLabs)* as part of our product testing. We believe voice is key to immersion, accessibility, and retention for early learners, especially those with reading difficulties.
 
